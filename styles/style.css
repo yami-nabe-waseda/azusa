@@ -21,6 +21,10 @@ header {
     z-index: 10; /* ★追加：前面に固定 */
 }
 
+section {
+  scroll-margin-top: 80px; /* ヘッダーの高さ分 */
+}
+
 header .menu li a {
     color: #e0ffff;
 }
