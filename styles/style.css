@@ -1,7 +1,6 @@
 body {
     padding-top: 90px; /* ヘッダー分 */
     margin: 0;
-    background-color: #f0f0f0; /* ←ここを変える */
     /* ★追加：固定背景 */
     background: url('background.jpg') no-repeat center/cover fixed;
 }
