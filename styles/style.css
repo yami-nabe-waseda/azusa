@@ -52,7 +52,7 @@ header .gnav .menu li + li {
 /* ★追加：コンテンツボックス */
 .content-box {
     width: 60%;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 30px;
     background: rgba(0, 163, 175, 0.85); /* 半透明 */
     border-radius: 12px;
