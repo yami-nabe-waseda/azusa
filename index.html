@@ -5,6 +5,28 @@
 <meta name="viewport" content="width=device-width">
 <link href="styles/style.css" rel="stylesheet" />
 <title>梓</title>
+  <style>
+/* 背景（最背面） */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('background.jpg') no-repeat center/cover;
+  z-index: -1; /* 背面に送る */
+}
+
+/* 前面のボックス */
+.content-box {
+  width: 60%;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* 半透明 */
+  border-radius: 10px;
+  font-size: 18px;
+}
+</style>
 </head>
 <body>
 <header id="header">
