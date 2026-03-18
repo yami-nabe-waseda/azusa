@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width">
 <link href="styles/style.css" rel="stylesheet" />
 <title>梓</title>
-  <style>
-/* 背景（最背面） */
+
+<style>
 .background {
   position: fixed;
   top: 0;
@@ -14,42 +14,58 @@
   width: 100%;
   height: 100%;
   background: url('background.jpg') no-repeat center/cover;
-  z-index: -1; /* 背面に送る */
+  z-index: -1;
 }
 
-/* 前面のボックス */
 .content-box {
   width: 60%;
-  margin: 100px auto;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* 半透明 */
+  margin: 120px auto; /* ヘッダー分を考慮 */
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 10px;
   font-size: 18px;
 }
 </style>
+
 </head>
+
 <body>
+
+<!-- ★背景を追加 -->
+<div class="background"></div>
+
 <header id="header">
   <h1>梓</h1>
-    <nav class="gnav">
-        <ul class="menu">
-            <li><a href="#s1">梓について</a></li>
-            <li><a href="#s2">活動紹介</a></li>
-            <li><a href="#s3">メンバー紹介</a></li>
-            <li><a href="#s4">入会希望の方へ</a></li>
-        </ul>
-    </nav>
+  <nav class="gnav">
+    <ul class="menu">
+      <li><a href="#s1">梓について</a></li>
+      <li><a href="#s2">活動紹介</a></li>
+      <li><a href="#s3">メンバー紹介</a></li>
+      <li><a href="#s4">入会希望の方へ</a></li>
+    </ul>
+  </nav>
 </header>
-<h2 id="s1"><center>梓について</center></h2>
-  <p>　『梓』は、早稲田大学の学生が中心となって発行している総合学術雑誌です。早稲田大学のみならず、他大学や一般の方からの寄稿も募集しています。</p>
-<h2 id="s2"><center>活動紹介</center></h2>
+
+<!-- ★ここで囲む -->
+<div class="content-box">
+
+  <h2 id="s1">梓について</h2>
+  <p>『梓』は、早稲田大学の学生が中心となって発行している総合学術雑誌です。他大学や一般の方からの寄稿も募集しています。</p>
+
+  <h2 id="s2">活動紹介</h2>
   <p>闇鍋では，</p>
-<h2 id="s3"><center>メンバー紹介</center></h2>
+
+  <h2 id="s3">メンバー紹介</h2>
   <p>幹事長</p>
-<h2 id="s4"><center>入会希望の方へ</center></h2>
+
+  <h2 id="s4">入会希望の方へ</h2>
   <p>入会希望の方は，</p>
+
+</div>
+
 <footer id="footer">
 &copy; 学際サークル闇鍋 2025
 </footer>
+
 </body>
 </html>
